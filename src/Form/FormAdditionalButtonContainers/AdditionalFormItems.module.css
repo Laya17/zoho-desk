@@ -1,0 +1,53 @@
+.rightside{
+    flex: 1 70%;
+    background-color: #ffffff;
+    margin-left: 10px;
+    border-radius: 5px;
+    margin: 0px 5px;
+    position: sticky;
+    top: 0;
+   max-width: 350px;
+    overflow-y: auto;
+}
+
+.ToggleonClick{
+    width: 100%;
+    text-align: left;
+    padding: 8px;
+    background-color: #f6f8fb;
+    border: 0;
+    border-radius: 5px;
+}
+
+.arrow{
+    position: absolute;
+    right: 5px;
+    margin-top: 4px;
+}
+
+.rightsmallbuttons{
+    background-color: white;
+    color: black;
+    padding :6px;
+    min-width: 138px;
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+    margin: 5px 0;
+    border: transparent;
+    box-shadow: 3px 5px #f2eaea
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.buttonnames{
+    padding-left: 20px;
+}
+
+.rightContainer{
+    position: relative;
+}

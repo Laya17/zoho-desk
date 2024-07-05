@@ -1,0 +1,68 @@
+.navigationcarditems{
+    text-align: justify;
+    color: black;
+    height: 20px;
+    padding: 15px;
+    padding-left: 30px;
+    display: flex;
+    max-height: 40px;
+}
+
+.itemcontainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.itemcontainer:hover{
+    background-color: #f6f8fb;
+    cursor: pointer;
+
+}
+.itemcontainer:hover .navigationcarditems{
+   
+    animation: linkanimation 0.5s 1 forwards;
+    
+}
+
+
+.icon{
+    display: none;
+    width: 16px;
+    padding: 10px;
+    background-color: #ebf0f5;
+}
+
+.itemcontainer:hover .icon {
+    
+    animation: icondisplay 1s 1 forwards;
+    display: inline-block; 
+}
+
+.icon:hover{
+    color: #0f76eb;
+    animation: linkanimation 0.5s 1 forwards;
+
+}
+
+
+
+@keyframes icondisplay {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+    
+}
+
+@keyframes linkanimation {
+    0%{
+        color: grey;
+    }
+    100%{
+        color: #0f76eb;
+    }
+    
+}

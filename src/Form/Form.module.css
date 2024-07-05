@@ -1,0 +1,7 @@
+.formpage{
+    display: flex;
+    height: 100%;
+    padding: 1% 10%;
+    overflow: auto;
+    background-color: #e7ecf4;
+}

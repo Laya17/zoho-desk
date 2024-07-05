@@ -1,0 +1,36 @@
+.floating-icon-container{
+    position: fixed;
+    bottom: 22px;
+    right: 38px;
+    display: flex;
+
+
+  }
+
+.floating-icon-container:hover .floating-icon{
+  opacity: 0.5;
+}
+.floating-icon-container:hover .floating-icon:hover{
+  opacity: 1;
+}
+
+  .floating-icon{
+    border-radius: 20px;
+    cursor:pointer;
+    
+    background-color: var(--hover-color);
+    color: white;
+    border: 1px solid transparent;
+  }
+
+
+
+  .hoverEffect:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+   
+}
+
+
+

@@ -1,0 +1,106 @@
+.lastcard{
+    margin: 8px 60px 24px 24px;  
+}
+
+.lastcardelements{
+    /* display: flex;
+    flex-direction: column; */
+    padding: 24px 24px 24px 32px;
+    background-color: var(--bread-color);
+    border: 5px;
+    border-radius: 8px;
+    margin: 5px;
+    width: 90%;
+}
+.cardcontent{
+    padding-right: 557px;
+    line-height: 20px;
+    color: var(--last-card-font);
+}
+.cardheading{
+    display: flex;
+    flex-grow:1;
+    align-items: center;
+    font-size: var(--body-font-size)+2;
+    font-weight: 500;
+    color: var(--heading-color);
+    
+
+}
+
+.lastcard1{
+    display: flex;flex-direction: row;
+    width: 70%;;
+}
+
+
+.dropdownmenu a{
+    background-color: var(--sidebar-color);
+}
+
+
+
+
+
+
+
+/*toggle*/
+
+.toggleContainer{
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height :38px ; margin-top: 6px;
+    border-radius: 10px;
+    
+
+}
+.togglebutton{
+    padding: 0.5px;
+    width: 26px;
+    height: 15px;
+    background-color: #C8CBDC;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    
+}
+
+.togglebutton::before{
+    position:absolute;
+    content: '';
+    background-color:#FFFFFF;
+    width: 12px;
+    height: 13px;
+    border-radius: 100%;
+    margin: 1px;
+    transition: 0.2s;
+}
+
+input:checked +.togglebutton{
+    background-color: #26A942;
+
+}
+
+input:checked + .togglebutton::before{
+    transform: translateX(100%);
+}
+
+.toggleContainer input{
+    display: none;
+}
+
+
+@media (max-width: 1100px) {
+
+    .cardcontent{
+        padding-right: 100px;
+    }
+    .toggleContainer{
+        padding-left: 100px;
+    }
+    .lastcard1{
+        width:100%;
+    }
+}

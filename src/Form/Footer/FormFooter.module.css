@@ -1,0 +1,29 @@
+.BottomContainer{
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px white;
+
+}
+
+
+.buttons{
+    width: 110px;
+    height: 28px;
+    border: 1px solid grey;
+    margin: 10px;
+    border-radius: 5px;
+    background-color:#0A73EB;
+    color: white;
+}
+
+.whitebutton{
+    width: 110px;
+    height: 28px;
+    border: 1px solid grey;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: white;
+    color: grey;
+
+}

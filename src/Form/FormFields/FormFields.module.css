@@ -1,0 +1,117 @@
+.leftside {
+   
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    background-color: #ffffff;
+    margin: 10px;
+    border-radius: 5px;
+    margin-top: 0;
+   
+    
+}
+
+.title {
+    padding: 30px 25px 5px;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10px;    
+    
+}
+
+.inputelementcontainer {
+    display: flex;
+    
+    flex-direction: column;
+    padding: 15px;
+    flex: 0 45%;
+    background-color: white;
+}
+/* .inputelementcontainer:hover{
+    box-shadow: 3px 3px 3px 5px #f2eaea
+} */
+
+.fullsizedcontainer {
+    flex:  0 100%; 
+    max-width: none;
+}
+
+.elementlabel {
+    padding: 6px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.mandatorylabel {
+    color: red;
+    padding: 6px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.inputbox {
+    padding: 6px;
+    border: 0;
+    border-bottom: 1px solid #d5dde7;
+    background-color: inherit;
+    font-size: 14px;
+    width: 60%;
+    outline: none;
+    transition: border-bottom 300ms;
+}
+.inputbox:hover{
+    border-bottom: 1px solid grey;
+   
+}
+
+.inputbox:focus{
+    border-bottom: 1px solid #0A73EB;
+    
+}
+
+.name {
+    padding-left: 15px;
+}
+
+.iconstyle{
+    position: absolute;
+    right: 120px;
+    bottom: 3px;
+    color: transparent;
+}
+
+.inputwrapper:hover .iconstyle{
+    color: rgb(222, 208, 208);
+    transition: color 0.8s;
+
+}
+.inputwrapper{
+    position: relative;
+}
+
+
+
+
+
+.saveLayout{
+    height: 20px;
+    width: 50px;
+    border-radius: 20px;
+    color: white;
+    background-color: var(--sidebar-color);
+    position: fixed;
+    bottom:50px;
+    right: 400px;
+    z-index: 1;
+}
+
+.formcontainer{
+    display: flex;
+   
+}
